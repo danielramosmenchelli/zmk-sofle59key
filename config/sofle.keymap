@@ -89,6 +89,8 @@
 &trans  &kp LG(Z)     &none         &kp LG(C)     &kp LG(V)     &none   &trans    &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN              &kp RIGHT              &kp LG(RIGHT)   &trans
                       &trans        &trans        &trans        &trans  &trans    &trans  &trans              &trans              &trans                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>, <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         symbols {
